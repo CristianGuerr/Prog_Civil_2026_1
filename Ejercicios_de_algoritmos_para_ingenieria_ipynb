@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN+RivdVQtc7DZe7tQYSDBy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/CristianGuerr/Prog_Civil_2026_1/blob/main/Ejercicios_de_algoritmos_para_ingenieria_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "i2ENb6dcwbv9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "aaf5e04c-d780-44c2-d3ca-0412dff4fb05"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el Índice de Plasticidad (IP): 10\n",
+            "Plásticidad media\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Ingresa tu código aquí siguiendo el algoritmo anterior\n",
+        "ip = float(input(\"Ingrese el Índice de Plasticidad (IP): \"))\n",
+        "\n",
+        "if ip < 7:\n",
+        "    print(\"Poco plástico\")\n",
+        "\n",
+        "if ip >= 7 and ip <= 17:\n",
+        "    print(\"Plásticidad media\")\n",
+        "\n",
+        "if ip > 17:\n",
+        "    print(\"Altamente plástico\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# ENTRADA: Ingresa el indice de plasticidad en porcentaje (ip)\n",
+        "ip = float(input(\"Ingrese el Índice de Plasticidad (IP): \"))\n",
+        "\n",
+        "# PROCESO: Evalua la plasticidad del suelo\n",
+        "if ip < 7:\n",
+        "    print(\"Poco plástico\")\n",
+        "elif ip >= 7 and ip <= 17:\n",
+        "    print(\"Plásticidad media\")\n",
+        "\n",
+        "elif ip > 17:\n",
+        "    print(\"Altamente plástico\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mlECwdImT7-O",
+        "outputId": "ddba84b1-6326-41bc-83c1-3c655ba4c3e4"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el Índice de Plasticidad (IP): 23\n",
+            "Altamente plástico\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
